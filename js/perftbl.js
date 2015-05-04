@@ -16,6 +16,10 @@ var perftbl = (function() {
     row("10K", x.t10km);
     row("Half-marathon", x.tHalfMarathon);
     row("Marathon", x.tMarathon);
+    row("50K", x.t50km);
+    row("50M", x.t50mi);
+    row("100K", x.t100km);
+    row("100M", x.t100mi);
     row("km/h", x.speedKm);
     row("mph", x.speedMi);
     view.append(table);
