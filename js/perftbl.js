@@ -12,6 +12,10 @@ var perftbl = (function() {
         .append($("<td/>").text(value));
       table.append(tr);
     };
+    row("100m", x.t100m);
+    row("200m", x.t200m);
+    row("400m", x.t400m);
+    row("800m", x.t800m);
     row("5K", x.t5km);
     row("10K", x.t10km);
     row("Half-marathon", x.tHalfMarathon);
